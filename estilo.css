@@ -1,0 +1,56 @@
+body {
+    background: rgb(253, 245, 230);
+  }
+  
+  #primeiraimagempagina {
+    width: 80%;
+  }
+  
+  em {
+    color: rgb(75, 0, 130);
+  }
+  
+  p {
+    font-size: 30px;
+    text-align: justify;
+  }
+  
+  h1 {
+    text-align: center;
+    background: greenyellow;
+  }
+  
+  h2 {
+    text-align: center;
+    background: greenyellow;
+    font-size: 30px;
+  }
+  
+  #destaquepalavrametaverso {
+    color: rgb(178, 34, 34);
+  }
+  
+  .itens {
+    font-style: italic;
+    
+  }
+  
+  ul { 
+    
+    display: inline-block; 
+      
+  }
+  
+  .befeciciosmetaversoslista {
+    background: rgb(135, 206, 250);
+  }
+  
+  .parteprincipal {
+    background: rgb(135, 206, 250);
+  }
+  
+  .segundaimagem {
+    width: 20%;
+  }
+  
+  
