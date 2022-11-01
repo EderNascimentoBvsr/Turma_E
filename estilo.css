@@ -3,7 +3,8 @@ body {
   }
   
   #primeiraimagempagina {
-    width: 80%;
+    width: 120%;    
+    
   }
   
   em {
@@ -50,7 +51,7 @@ body {
   }
   
   .segundaimagem {
-    width: 20%;
+    width: 80%;
   }
   
   
