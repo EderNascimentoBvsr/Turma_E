@@ -1,9 +1,13 @@
 body {
     background: rgb(253, 245, 230);
+    margin-top:25px;
+    margin-bottom:15px ;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
   #primeiraimagempagina {
-    width: 120%;    
+    width: 90%;    
     
   }
   
@@ -51,7 +55,8 @@ body {
   }
   
   .segundaimagem {
-    width: 80%;
+    width: 20%;
+    display: inline-block; 
   }
   
   
