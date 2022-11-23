@@ -5,6 +5,13 @@ body {
     margin-left: 25px;
     margin-right: 25px;
   }
+
+  .tituloprincipal{
+
+    text-align: center;
+    color: rgb(194, 26, 54);
+    font-style: italic;
+  }
   
   #primeiraimagempagina {
     width: 90%;    
@@ -19,13 +26,18 @@ body {
     font-size: 30px;
     text-align: justify;
   }
+
+  h1{
+
+    text-align: center;
+  }
   
-  h1 {
+  h2 {
     text-align: center;
     background: greenyellow;
   }
   
-  h2 {
+  h3 {
     text-align: center;
     background: greenyellow;
     font-size: 30px;
@@ -43,20 +55,25 @@ body {
   ul { 
     
     display: inline-block; 
+    vertical-align: top;
+    
+    margin: 45px;
       
   }
   
   .befeciciosmetaversoslista {
     background: rgb(135, 206, 250);
+    padding: 20px;
   }
   
   .parteprincipal {
     background: rgb(135, 206, 250);
+    padding: 20px;
   }
   
   .segundaimagem {
-    width: 20%;
-    display: inline-block; 
+    width: 60%;
+    
   }
   
   
