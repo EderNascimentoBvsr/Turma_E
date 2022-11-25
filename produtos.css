@@ -1,11 +1,27 @@
 header{
-    background: rgb(173, 179, 177);
+    background: rgb(173, 179, 177);      
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+nav {
+
+    position:absolute;
+    top: 0px;
+    right: 0px;
+
+
 }
 
 nav li{
 
     display: inline;
     margin: 0 0 0 15px;
+    position: relative;
+    top: 100px;
+    right: 40px;
     
 }
 
@@ -17,3 +33,9 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.tamanhologo{
+
+    width: 240px;
+}
+
