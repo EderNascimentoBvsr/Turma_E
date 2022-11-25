@@ -1,9 +1,29 @@
 header{
-    background: rgb(173, 179, 177);      
+    background: rgb(173, 179, 177); 
+    padding: 25px 0;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
     
+}
+
+.slogan{
+
+    display: inline;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
 }
 
 nav {
@@ -18,10 +38,11 @@ nav {
 nav li{
 
     display: inline;
+    font-family: Arial;
     margin: 0 0 0 15px;
     position: relative;
     top: 100px;
-    right: 40px;
+    left: 880px;
     
 }
 
