@@ -90,16 +90,40 @@ nav a {
 
 .produtos h3{ 
 
+    color: rgba(9, 17, 95, 0.897);
     font-size: 20px;
     font-weight: bold;
     font-family: Arial;
     margin-bottom: 15px;
 }
 
+.apresentação_do_produto{
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    position: relative;
+    top: 10px;
+
+
+}
+
+.apresentação_do_valor_produto{
+
+    color: rgb(206, 15, 25);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    position: relative;
+    top: 15px;
+}
+
+
 .img_educacao_e_metaverso{
 
     width: 200px;
 }
+
 
 .img_game_e_metaverso {
     width: 200px;
