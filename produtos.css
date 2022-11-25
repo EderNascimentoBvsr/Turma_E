@@ -1,10 +1,22 @@
+body {
+
+    background: rgb(189, 224, 213);
+
+}
+
+
 header{
-    background: rgb(173, 179, 177); 
+    background: rgb(177, 179, 173); 
     padding: 25px 0;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
     
+}
+
+.tamanhologo{
+
+    width: 240px;
 }
 
 .slogan{
@@ -55,8 +67,52 @@ nav a {
     text-decoration: none;
 }
 
-.tamanhologo{
 
-    width: 240px;
+
+.produtos{
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
 }
+
+.produtos li { 
+
+    display: inline-block;    
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    position: relative;
+    top: 90px;
+
+}
+
+.produtos h3{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 15px;
+}
+
+.img_educacao_e_metaverso{
+
+    width: 200px;
+}
+
+.img_game_e_metaverso {
+    width: 200px;
+    height: 162px;
+}
+
+
+.img_marketing_e_metaverso {   
+
+    width: 200px;
+    height: 162px;
+
+}
+
+
 
