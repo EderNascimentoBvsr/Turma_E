@@ -69,6 +69,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
 
 
 .produtos{
@@ -77,6 +81,24 @@ nav a {
     margin: 0 auto;
     padding: 50px 0;
     
+}
+
+.produtos li:hover{
+
+    border-color: red;
+
+}
+
+.produtos li:active {
+
+    border-color: rgb(52, 212, 151);
+
+}
+
+.produtos li:hover h3 {
+
+    font-size: 22px;
+
 }
 
 .produtos li { 
@@ -92,6 +114,7 @@ nav a {
     box-sizing: border-box;
     border-width: 3px 3px 3px 3px;
     border-style: solid;  
+    border-radius: 10px;
     
 }
 
