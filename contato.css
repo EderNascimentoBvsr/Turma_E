@@ -1,0 +1,99 @@
+body {
+
+    background: rgb(189, 224, 213);
+
+}
+
+
+header{
+    background: rgb(177, 179, 173); 
+    padding: 25px 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.tamanhologo{
+
+    width: 240px;
+}
+
+.slogan{
+
+    display: inline;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    border-width: 5px 5px 5px 5px;
+    border-style: dotted;
+    
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+}
+
+nav {
+
+    position:absolute;
+    top: 0px;
+    right: 0px;
+
+
+}
+
+nav li{
+
+    display: inline;
+    font-family: Arial;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 100px;
+    left: 880px;
+    
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+footer {
+
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    top: 200px;
+
+} 
+
+footer img{
+
+    width: 35px;
+}
+
+.textocopyright{ 
+
+    font-size: 12px;
+    font-family: Arial;
+    color: red;
+
+}       
