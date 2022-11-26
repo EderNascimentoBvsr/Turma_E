@@ -85,6 +85,10 @@ nav a {
     vertical-align: top;
     position: relative;
     top: 90px;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
 
 }
 
@@ -97,7 +101,7 @@ nav a {
     margin-bottom: 15px;
 }
 
-.apresentação_do_produto{
+.produto-descrição{
 
     font-size: 15px;
     font-weight: bold;
@@ -108,7 +112,7 @@ nav a {
 
 }
 
-.apresentação_do_valor_produto{
+.produto-preço{
 
     color: rgb(206, 15, 25);
     font-size: 15px;
