@@ -105,16 +105,13 @@ form label{
 }
 
 
-form input{
+form input, form textarea{
 
     display: block;
     font-size: 25px ;
     margin: 0 0 20px;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
-
-
-
 
 footer img{
 
@@ -129,7 +126,3 @@ footer img{
 
 }
 
-#mensagemconsumidor{
-
-    margin-bottom: 20px;
-}
