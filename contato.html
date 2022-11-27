@@ -32,6 +32,7 @@
         <main>
 
             <form>
+
                 <label for="nomecliente"> Nome completo</label>
                 <input type="text" id="nomecliente">
 
@@ -41,7 +42,27 @@
                 <label for="telefone"> Telefone</label>
                 <input type="text" id=" tefone">
 
-                <input type="submit" value="Enviar formulário">
+                <label for="mensagemconsumidor"> Mensagem</label>
+                <textarea cols="42" rows="15" id="mensagemconsumidor"></textarea>
+                
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+
+                    <label for="radio-telefone"> Telefone</label>
+                    <input type="radio" value="Telefone" name="contato" id="radio-telefone">
+
+                    
+                    <label for="radio-email"> E-mail</label>
+                    <input type="radio" value="Telefone" name="contato" id="radio-email">
+
+                    <label for="radio-whatsapp">Whatsapp</label>
+                    <input type="radio" value="Telefone" name="contato" id="radio-whatsapp">
+
+                    <label>Gostaria de receber novidades sobre nossos produtos em seu e-mail?</label>
+                    <input type="checkbox"></input>
+
+                    <input type="submit" value="Enviar formulário">
+                </div>
 
             </form>
 
