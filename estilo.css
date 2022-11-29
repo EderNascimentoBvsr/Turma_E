@@ -1,4 +1,12 @@
 
+
+
+.cabeçalho{
+  position: relative;
+  width: 940px;
+}
+
+
 header{
 
     background: rgb(177, 179, 173); 
@@ -14,20 +22,6 @@ body {
 
     background: rgb(189, 224, 213);
 
-  }
-
-
-  
-#primeiraimagempagina {
-    position: relative;
-    margin-top: 60px;
-    margin-left: 110px;
-    width: 40%;
-    padding: 10px;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 10px;   
-    
   }
     
 .tamanhologo{
@@ -50,39 +44,130 @@ body {
     border-style: dotted;
     
   }
+
+
+nav {
+
+    position:absolute;
+    top: 0px;
+    right: 0px;
+
+
+}
+
+nav li{
+
+    display: inline;
+    font-family: Arial;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 100px;
+    left: 880px;
+    
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+nav {
+
+    position:absolute;
+    top: 0px;
+    right: 0px;
+
+
+}
+
+nav li{
+
+    display: inline;
+    font-family: Arial;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 100px;
+    left: 880px;
+    
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
   
-  .destaqueparagrafoprincipal {
+.enunciado-primeiraimagem {
+    
+    text-indent: 15px;    
+    position:relative;
+    margin-top: 0;
+    margin-left: 400;
+
+}
+
+
+#primeiraimagempagina {
+  
+  margin-top: 0px;
+  margin-left: 120px;
+  width: 40%;
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;   
+  display: inline-block;
+}
+  
+.destaqueparagrafoprincipal {
     color: rgb(178, 34, 34);
     
     
   }
   
-  .itens {
+.itens {
     font-style: italic;
     
   }
   
-  ul { 
+ul { 
     
     display: inline-block; 
-    vertical-align: top;
-    
+    vertical-align: top;    
     margin: 45px;
       
   }
   
-  .befeciciosmetaversoslista {
+.befeciciosmetaversoslista {
     background: rgb(135, 206, 250);
     padding: 20px;
   }
   
-  .apresentacaodoproduto {
+.apresentacaodoproduto {
     background: rgb(135, 206, 250);
     padding: 20px;
   }
   
-  .segundaimagem {
-    width: 60%;
+.segundaimagem {
+    width: 40%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;   
     
   }
   
