@@ -24,10 +24,22 @@ body {
 
   }
     
-.tamanhologo{
+.config-logo{
 
     width: 240px;
   }
+
+  .nome-empresa {
+
+    position: relative;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
 
 .slogan{
 
@@ -40,10 +52,10 @@ body {
     position: absolute;
     top: 100px;
     left: 600px;
-    border-width: 5px 5px 5px 5px;
-    border-style: dotted;
+    color:rgb(4, 7, 184);
     
-  }
+    
+}
 
 
 nav {
@@ -156,7 +168,7 @@ ul {
   }
   
 .befeciciosmetaversoslista {
-    background: rgb(189, 224, 213));
+    background: rgb(189, 224, 213);
     padding: 20px;
   }
   
