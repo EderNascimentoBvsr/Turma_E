@@ -123,12 +123,12 @@ nav a {
 }
 
 
-section p {  
+main h4 {  
   
     
     text-indent: 15px;    
-    position:relative;
-    margin-top: 120px;
+    position: relative;
+    margin-top: 200 px;
     margin-left: 900px;
     text-align: justify;
     display: inline-block;
@@ -136,15 +136,14 @@ section p {
 }
 
 
-section img {
-  
+main img {
+
+  display: table-cell;
   margin-top: 10px;
   margin-left: 120px;
   width: 40%;
   padding: 10px;
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 10px;   
+  display: inline-block;
   
 }
   
