@@ -145,11 +145,24 @@ nav a:hover{
 
 }
 
-.produtos li:hover h3 {
+.produtos li:hover h4 {
 
     font-size: 22px;
 
 }
+
+.produtos li:hover h5 {
+
+    font-size: 22px;
+
+}
+
+.produtos li:hover h6 {
+
+    font-size: 22px;
+
+}
+
 
 .produtos li { 
 
