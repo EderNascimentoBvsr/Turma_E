@@ -120,7 +120,7 @@ nav a {
 }
 
 
-main h4 {  
+.enunciado-img1 {  
   
     
     text-indent: 15px;    
@@ -133,7 +133,7 @@ main h4 {
 }
 
 
-.primeiraimagempagina {
+.img1-section {
 
   display: table-cell;
   margin-top: 30px;
