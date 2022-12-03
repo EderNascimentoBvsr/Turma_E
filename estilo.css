@@ -122,15 +122,17 @@ nav a {
 .container{
 
   display: flex;
+  flex-direction: row;
 
 }
 .enunciado-section {  
   
     
     text-indent: 15px;  
-    margin-top: 0 px;
-    margin-left: 0px;
-    text-align: justify;
+    margin-top: 150px;
+    margin-right: 150px;
+    text-align:center;
+    padding: 30px;
     
 }
 
@@ -138,9 +140,9 @@ nav a {
 .img1-section {
 
   display: table-cell;
-  margin-top: 30px;
-  margin-left: 120px;
-  width: 40%;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 90%;
   padding: 10px;
   display: inline-block;
   border-style: solid;
