@@ -35,35 +35,32 @@
             <form>
 
                 <label for="nomecliente"> Nome completo</label>
-                <input type="text" id="nomecliente">
+                <input type="text" id="nomecliente" class= "input-padrão">
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input type="text" id="email" class= "input-padrão">
 
                 <label for="telefone"> Telefone</label>
-                <input type="text" id=" tefone">
+                <input type="text" id=" tefone" class= "input-padrão">
 
                 <label for="mensagemconsumidor"> Mensagem</label>
-                <textarea rows="10"></textarea>
+                <textarea rows="10" class= "input-padrão"></textarea>
                 
                 <div>
+
                     <p>Como prefere o nosso contato?</p>
 
-                    <label for="radio-telefone"> Telefone</label>
-                    <input type="radio" value="Telefone" name="contato" id="radio-telefone">
-
+                    <label for="radio-telefone"><input type="radio" value="Telefone" name="contato" id="radio-telefone">Telefone</label>
                     
-                    <label for="radio-email"> E-mail</label>
-                    <input type="radio" value="Telefone" name="contato" id="radio-email">
+                    <label for="radio-email"> <input type="radio" value="Telefone" name="contato" id="radio-email"> E-mail</label>                   
 
-                    <label for="radio-whatsapp">Whatsapp</label>
-                    <input type="radio" value="Telefone" name="contato" id="radio-whatsapp">
-
-                    <label>Gostaria de receber novidades sobre nossos produtos em seu e-mail?</label>
-                    <input type="checkbox"></input>
-
-                    <input type="submit" value="Enviar formulário">
+                    <label for="radio-whatsapp"><input type="radio" value="Telefone" name="contato" id="radio-whatsapp">Whatsapp</label>                  
+                    
                 </div>
+                
+                <label class="checkbox"><input type="checkbox"></label> Gostaria de receber novidades sobre nossos produtos em seu e-mail?</label>
+                                    
+                <input type="submit" value="Enviar formulário">
 
             </form>
 
