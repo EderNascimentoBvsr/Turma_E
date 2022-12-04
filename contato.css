@@ -112,8 +112,9 @@ form {
 form label, form p{
 
     display: block;
-    font-size: 25px;
+    font-size: 15px;
     margin: 0 0 10px;
+    font-family: Arial;
 }
 
 .input-padrão{
@@ -128,6 +129,15 @@ form label, form p{
 .checkbox{
 
     margin: 20px 0;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.submit-formulario{
+
+    position: relative;
+    margin-left: 190px;
+    
 }
 
 footer img{
