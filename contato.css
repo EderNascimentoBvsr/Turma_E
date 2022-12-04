@@ -109,7 +109,7 @@ form {
 
 }
 
-form label, form p{
+form label, form legend{
 
     display: block;
     font-size: 15px;
@@ -133,10 +133,19 @@ form label, form p{
     font-size: 15px;
 }
 
+.select-periodos{
+
+    margin-top: 0px;
+
+}
+
 .submit-formulario{
 
     position: relative;
-    margin-left: 190px;
+    margin-left: 60px;
+    width: 40%;
+    color: brown;
+    background: rgb(121, 179, 218);
     
 }
 
@@ -149,7 +158,7 @@ footer img{
 
     font-size: 12px;
     font-family: Arial;
-    color: red;
+    color: red;   
 
 }
 

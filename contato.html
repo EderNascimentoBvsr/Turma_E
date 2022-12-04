@@ -35,32 +35,43 @@
             <form>
 
                 <label for="nomecliente"> Nome completo</label>
-                <input type="text" id="nomecliente" class= "input-padrão">
+                <input type="text" id="nomecliente" class= "input-padrão" required>
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email" class= "input-padrão">
+                <input type="email" id="email" class= "input-padrão" required placeholder="seuemail@domínio.com...">
 
                 <label for="telefone"> Telefone</label>
-                <input type="text" id=" tefone" class= "input-padrão">
+                <input type="tel" id=" tefone" class= "input-padrão" required placeholder="(xx)xxxxx-xxxx">
 
                 <label for="mensagemconsumidor"> Mensagem</label>
-                <textarea rows="10" class= "input-padrão"></textarea>
+                <textarea rows="10" class= "input-padrão" required></textarea>
                 
-                <div>
+                <fieldset>
 
-                    <p>Como prefere o nosso contato?</p>
+                    <legend>Como prefere o nosso contato?</legend>
 
                     <label for="radio-telefone"><input type="radio" value="Telefone" name="contato" id="radio-telefone">Telefone</label>
                     
                     <label for="radio-email"> <input type="radio" value="Telefone" name="contato" id="radio-email"> E-mail</label>                   
 
-                    <label for="radio-whatsapp"><input type="radio" value="Telefone" name="contato" id="radio-whatsapp">Whatsapp</label>                  
+                    <label for="radio-whatsapp"><input type="radio" value="Telefone" name="contato" id="radio-whatsapp" checked>Whatsapp</label>                  
                     
-                </div>
+                </fieldset>
+                <fieldset class="select-periodos">
+                    <legend> Em que período podemos entrar em contato?</legend>
+                    <select>
+
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+
+                    </select>
+
+                </fieldset>
                 
-                <label class="checkbox"> Gostaria de receber novidades sobre nossos produtos em seu e-mail?<input type="checkbox"></label>
-                                 
-                <input class="submit-formulario" type="submit" value="Enviar formulário">
+                    <label class="checkbox"> Gostaria de receber novidades sobre nossos produtos em seu e-mail?<input type="checkbox" checked></label>
+                                    
+                    <input class="submit-formulario" type="submit" value="Enviar formulário">
 
             </form>
 
