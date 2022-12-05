@@ -92,13 +92,9 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.container{
+.container  {
 
-  display: flex;
-  justify-content: space-around;
-  
-
-  
+  display: flex;  
 
 }
 
@@ -110,10 +106,8 @@ nav a:hover{
   margin-left: 240px;
   width: 50%;  
   padding: 10px;
-  display: inline-block;
+  display: flex;
   border-style: solid;
-  border-width: 5px;
-  border-radius: 20px;
   
   
 }
@@ -137,7 +131,7 @@ nav a:hover{
 .config-padrão {     
    
     border: solid;
-    margin: 300px 500px;
+    margin-right: 900px;
     width: 50%;
        
 }
