@@ -173,6 +173,27 @@ nav a:hover{
   border-color: rgb(13, 207, 110);
 }
 
+.config-secao{
+
+  height: 30px;
+  width: 100%;
+  background: rgb(224, 105, 185);
+  margin-top: 850px;
+  padding: 15px;
+  
+  
+
+}
+
+.config-letra{
+
+  margin-top: 2px;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+
 
 footer {
 
