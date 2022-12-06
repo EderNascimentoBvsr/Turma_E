@@ -1,14 +1,12 @@
 body {
 
   background: rgb(189, 224, 213);
-  
 
 }
 
 
 header{
-  width: auto;
-  background: rgb(177, 179, 173);  
+  background: rgb(177, 179, 173); 
   padding: 25px 0;
   margin-top: 0;
   margin-left: 0;
@@ -51,11 +49,7 @@ header{
 
 .caixa{
   position: relative;
-  background-size: cover;
-  width: 960px;
-  box-sizing: border-box;
- 
-  
+  width: 940px;
 }
 
 nav {
@@ -92,126 +86,35 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.container  {
-
-  display: flex;  
-
-}
-
-
-.img1-section {
-
-  
-  margin-top: 40px;
-  margin-left: 240px;
-  width: 50%;  
-  padding: 10px;
-  display: flex;
-  border-style: solid;
-  
-  
-}
-
-.título-propaganda {
-
-  margin-left: 120px;
-  width: 450px;   
-  font-size: 20px;
-  text-align: left;
-  color: blueviolet;
-  text-transform: uppercase;
-  font-family: Arial;
-  font-weight: bold;
-  padding: 0px;
-  margin-top: 30px;
-  margin-right: 720px; 
-
-}
-
-.config-padrão {     
-   
-    border: solid;
-    margin-right: 900px;
-    width: 50%;
-       
-}
-
-.config-itemlista{ 
-
-  text-indent: 15px;
-  line-height: 30px;
-  font-size: 20px;
-  font-weight: bold;  
-  margin-top: 0px;
-  margin-right: 0px;
-  text-align:center;
-  padding: 5px;
-  width: 500px;
-  box-sizing: inherit; 
-}
 
 
 
-  
-.destaqueparagrafoprincipal {
-    color: rgb(178, 34, 34);
-    
-    
-  }
-  
-.itens {
-    font-style: italic;
-    
-  }
-  
-ul { 
-    
-    display: inline-block; 
-    vertical-align: top;    
-    margin: 45px;
-      
-  }
-  
-.befeciciosmetaversoslista {
-    background: rgb(189, 224, 213);
-    padding: 20px;
-  }
-  
-.apresentacaodoproduto {
-    background: rgb(135, 206, 250);
-    padding: 20px;
-  }
-  
-.segundaimagem {
-    width: 40%;
-    padding: 10px;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 10px;   
-    
-  }
 
-  footer {
 
-    text-align: center;
-    padding: 40px 0;
-    position: relative;
-    top: 200px;
+
+
+
+
+
+
+footer {
+
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+  top: 200px;
 
 } 
 
 footer img{
 
-    width: 35px;
+  width: 35px;
 }
 
 .textocopyright{ 
 
-    font-size: 12px;
-    font-family: Arial;
-    color: red;
-
+  font-size: 12px;
+  font-family: Arial;
+  color: red;   
 
 }
-  
-  
