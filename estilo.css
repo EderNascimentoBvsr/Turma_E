@@ -145,8 +145,33 @@ nav a:hover{
 
 }
 
+.input-incricao{
+
+       margin-left: 90px;
+       margin-top: 25px;
+       font-size: 25px;
+       font-weight: bold;
+       font-family: Arial;
+       border-style: solid;
+       border-radius: 10px;
+       border-color: rgb(4, 7, 184);
+       padding: 12px;
+       background: rgb(136, 91, 182);
 
 
+}
+
+
+.input-incricao:hover{
+
+    border-color: rgb(207, 107, 13);
+}
+
+
+.input-incricao:active{
+
+  border-color: rgb(13, 207, 110);
+}
 
 
 footer {
