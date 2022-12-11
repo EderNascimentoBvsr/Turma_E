@@ -193,24 +193,38 @@ nav a:hover{
 .apresentacao-empresa{
 
   margin-top: 220px;
+  position: relative;
+  margin-left: 150px;
 
 }
 
 .titulo-empresa{
-
+  font-family: Arial;
   text-align: center;
   font-weight: bold;
   font-size: 2em;
   margin: 0 0 1.5em;
 }
 
+.profissoes-futuro_img{
+  width: 35%;
+  float: left;
+  padding: 30px;
+  
+
+}
+
+
 .texto-empresa{
 
+
+  font-family: Arial;
   text-indent: 40px;
   font-size: 35px;
   text-align: justify;
   line-height: 1.5em;
   margin: 0 500px;
+  
 
 }
 
