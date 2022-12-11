@@ -4,7 +4,6 @@ body {
 
 }
 
-
 header{
   background: rgb(177, 179, 173); 
   padding: 25px 0;
@@ -180,12 +179,10 @@ nav a:hover{
   background: rgb(224, 105, 185);
   margin-top: 850px;
   padding: 15px;
-  
-  
 
 }
 
-.config-letra{
+.config-letrarolante{
 
   margin-top: 2px;
   font-family: Arial;
@@ -193,7 +190,29 @@ nav a:hover{
   font-weight:bold;
 }
 
+.apresentacao-empresa{
 
+  margin-top: 220px;
+
+}
+
+.titulo-empresa{
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 0 1.5em;
+}
+
+.texto-empresa{
+
+  text-indent: 40px;
+  font-size: 35px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0 500px;
+
+}
 
 footer {
 
