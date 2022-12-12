@@ -216,7 +216,7 @@ nav a:hover{
  
 }
 
-.titulo-principal2{
+.titulo-mapa{
   clear: left;
   font-family: Arial;
   text-align: center;
@@ -238,7 +238,7 @@ nav a:hover{
 
   position: relative;
   margin-left: 359px;
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
 
@@ -253,6 +253,32 @@ nav a:hover{
   line-height: 1.5em;
   margin: 0 500px;  
   
+
+}
+
+.titulo-video{
+  position:relative;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 0 1.5em;
+}
+
+.texto-video{
+
+  font-family: Arial;
+  text-align: center;  
+  font-size: 1.5em;
+  margin: 0 0 1.5em;
+
+}
+
+.video{
+
+  position: relative;
+  margin-left: 470px;
+  padding: 0.5em 0;
 
 }
 
