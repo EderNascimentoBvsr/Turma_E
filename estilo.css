@@ -225,20 +225,30 @@ nav a:hover{
   margin: 0 0 1.5em;
 }
 
+.texto-mapa{
+
+  font-family: Arial;
+  text-align: center;  
+  font-size: 1.5em;
+  margin: 0 0 1.5em;
+
+}
+
 .mapa{
 
   position: relative;
   margin-left: 359px;
+  padding: 1em 0;
 }
 
 
-.texto-empresa{
+.texto-pagina{
 
   position: relative;
   margin-top: 100px;
   font-family: Arial;
   text-indent: 40px;
-  font-size: 35px;
+  font-size: 1.5em;
   text-align: justify;
   line-height: 1.5em;
   margin: 0 500px;  
