@@ -5,7 +5,7 @@ body {
 }
 
 header{
-  background: rgb(177, 179, 173); 
+  background:  linear-gradient(to bottom, #d69dcf, #bfa9dd, #acb4e0, #a2bcdc, #a3c2d4, #a5c2cd, #aac1c6, #b0c0c1, #aebcbc, #adb7b6, #abb3b2, #a9aead);
   padding: 25px 0;
   margin-top: 0;
   margin-left: 0;
