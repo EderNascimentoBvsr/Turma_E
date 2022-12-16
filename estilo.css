@@ -5,7 +5,7 @@ body {
 }
 
 header{
-  background:linear-gradient(to bottom, #f2e9f1, #e5e0ed, #d4d8e8, #c1d2e2, #aecbd7, #9bc0cf, #88b6c6, #74abbe, #6497bc, #6780b4, #7667a1, #854a83);
+  background: linear-gradient(to bottom, #aa0687, #b23896, #ba54a4, #c16cb1, #c983be, #ce8fc5, #d29ccc, #d7a8d3, #daaed7, #ddb5db, #e0bbdf, #e3c1e3);
   padding: 25px 0;
   margin-top: 0;
   margin-left: 0;
@@ -88,7 +88,7 @@ nav a:hover{
 .container {
 
   display: flex;
-  justify-content: center
+  justify-content: center;
   
 
 }
@@ -190,28 +190,53 @@ nav a:hover{
   font-weight:bold;
 }
 
-.historia-empresa{
+.container-apresentacao_empresa{
+
+        
+    height: 450px;
+    background:linear-gradient(to right, #060daa, #0046be, #0060b6, #0075a2, #00858f, #008f9b, #0099a8, #00a3b5, #00a6e3, #00a0ff, #958cff, #fb5ffb); 
+    
+  }
+
+.apresentacao-empresa{
 
   margin-top: 220px; 
   margin-left: 150px;
   
 }
 
-.titulo-empresa{
+.titulo-principal{
   font-family: Arial;
   text-align: center;
+  margin-left: 300px;
   font-weight: bold;
   font-size: 2em;
-  margin: 0 0 1.5em;
+  /*margin: 0 0 1.5em;*/
 }
 
-.profissoes-futuro_img{
+.apresentacao-empresa_img{
   
   width: 30%;
   float: left;
-  padding: 30px;  
+  padding: 30px;
+ 
  
 }
+
+.texto-apresentacao_empresa{
+
+  position: relative;
+  margin-top: 100px;
+  font-family: Arial;
+  text-indent: 40px;
+  font-size: 1.5em;
+  text-align: justify;
+  line-height: 1.5em;
+  padding: 50px;
+  margin: 100px 0 400px 400px;    
+
+}
+
 
 .titulo-mapa{
   clear: left;
@@ -236,21 +261,6 @@ nav a:hover{
   position: relative;
   margin-left: 359px;
   padding: 0.5em 0;
-}
-
-
-.texto-pagina{
-
-  position: relative;
-  margin-top: 100px;
-  font-family: Arial;
-  text-indent: 40px;
-  font-size: 1.5em;
-  text-align: justify;
-  line-height: 1.5em;
-  margin: 0 500px;  
-  
-
 }
 
 .titulo-video{
