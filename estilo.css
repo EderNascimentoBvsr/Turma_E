@@ -211,7 +211,7 @@ nav a:hover{
   margin-left: 300px;
   font-weight: bold;
   font-size: 2em;
-  /*margin: 0 0 1.5em;*/
+  margin-top: 0px;
 }
 
 .apresentacao-empresa_img{
@@ -232,7 +232,7 @@ nav a:hover{
   font-size: 1.5em;
   text-align: justify;
   line-height: 1.5em;
-  padding: 50px;
+  padding: 30px;
   margin: 100px 0 400px 400px;    
 
 }
